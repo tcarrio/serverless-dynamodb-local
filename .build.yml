@@ -3,6 +3,7 @@ packages:
   - nodejs
   - npm
   - jq
+  - jre11-openjdk-headless
 sources:
   - https://git.sr.ht/~tcarrio/serverless-dynamodb-local
   - https://git.sr.ht/~tcarrio/build-helpers
