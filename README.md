@@ -1,4 +1,4 @@
-[![builds.sr.ht status](https://builds.sr.ht/~tcarrio/serverless-dynamodb-local/.build.yml.svg)](https://builds.sr.ht/~tcarrio/serverless-dynamodb-local/.build.yml?)
+![npm (scoped)](https://img.shields.io/npm/v/@0xc/serverless-dynamodb-local)[![builds.sr.ht status](https://builds.sr.ht/~tcarrio/serverless-dynamodb-local/.build.yml.svg)](https://builds.sr.ht/~tcarrio/serverless-dynamodb-local/.build.yml?)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 @0xc/serverless-dynamodb-local
