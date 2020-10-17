@@ -6,12 +6,15 @@ packages:
   - jre11-openjdk-headless
 sources:
   - https://git.sr.ht/~tcarrio/serverless-dynamodb-local
+  - https://git.sr.ht/~tcarrio/git-mirror
   - https://git.sr.ht/~tcarrio/build-helpers
 environment:
   helpers_dir: build-helpers
   project_dir: serverless-dynamodb-local
+  GIT_TARGET_REPO: git@github.com:tcarrio/serverless-dynamodb-local.git
 secrets:
   - ba28a958-f5f1-48d5-830f-abcbb5efb1a5
+  - 4e983fc2-9d24-43eb-9986-1c18feb2e7b8
 tasks:
   - install: |
       cd $project_dir
@@ -41,3 +44,4 @@ tasks:
       fi
 
       npm publish --access public
+  - mirror-all: git-mirror/git-mirror.sh $project_dir
